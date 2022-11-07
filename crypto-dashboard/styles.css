@@ -1,0 +1,61 @@
+.heading {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.3fr 1fr;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.symbol,
+.percent {
+  font-size: 20px;
+}
+
+.percent {
+  color: red;
+}
