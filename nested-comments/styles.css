@@ -1,0 +1,47 @@
+.card {
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(222, 222, 222);
+  margin-top: 10px;
+}
+
+.text {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reply {
+  color: rgb(84, 84, 233);
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.comment-details {
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn {
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(135, 135, 235);
+  border: 0px;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.all-comment:not(:first-child) {
+  margin-left: 4rem;
+}
