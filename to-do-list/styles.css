@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(
+    18deg,
+    rgba(4, 189, 228, 1),
+    rgba(2, 83, 185, 1)
+  );
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+}
+
+.input-container {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.input,
+.btn {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+}
+
+.input {
+  width: 200px;
+}
+
+.btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.text {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
